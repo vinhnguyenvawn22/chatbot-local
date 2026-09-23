@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Tránh vô tình đưa tài liệu nội bộ vào Git nếu sau này chuyển document vào project.
+document/

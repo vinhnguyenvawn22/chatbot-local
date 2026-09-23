@@ -1,0 +1,5 @@
+[server]
+# Project chỉ xử lý văn bản. Tắt watcher để Streamlit không quét các module
+# xử lý ảnh tùy chọn của Transformers và báo thiếu torchvision.
+fileWatcherType = "none"
+
